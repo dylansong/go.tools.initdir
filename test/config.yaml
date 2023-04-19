@@ -1,8 +1,11 @@
-src:
-  controllers:
-  models:
-  views:
-assets:
-  images:
-  css:
-config:
+directories:
+  - name: src
+    directories:
+      - name: controllers
+      - name: models
+      - name: views
+  - name: assets
+    directories:
+      - name: images
+      - name: css
+  - name: config

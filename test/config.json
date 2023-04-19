@@ -1,29 +1,20 @@
 {
-  "root": "../../src",
-  "paths": {
-    "src": {
-      "model": {
-        "front": {},
-        "back": {},
-        "main": ".ts"
-      },
-      "controller": {
-        "auth": {},
-        "data": {},
-        "index": ".ts"
-      },
-      "service": {
-        "auth": {},
-        "data": {},
-        "index": ".ts"
-      }
+  "directories": [
+    {
+      "name": "src",
+      "directories": [
+        { "name": "controllers" },
+        { "name": "models" },
+        { "name": "views" }
+      ]
     },
-    "test": {
-      "model": {
-        "front": {},
-        "back": {},
-        "main": ".ts"
-      }
-    }
-  }
+    {
+      "name": "assets",
+      "directories": [
+        { "name": "images" },
+        { "name": "css" }
+      ]
+    },
+    { "name": "config" }
+  ]
 }
