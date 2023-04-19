@@ -1,0 +1,29 @@
+{
+  "root": "../../src",
+  "paths": {
+    "src": {
+      "model": {
+        "front": {},
+        "back": {},
+        "main": ".ts"
+      },
+      "controller": {
+        "auth": {},
+        "data": {},
+        "index": ".ts"
+      },
+      "service": {
+        "auth": {},
+        "data": {},
+        "index": ".ts"
+      }
+    },
+    "test": {
+      "model": {
+        "front": {},
+        "back": {},
+        "main": ".ts"
+      }
+    }
+  }
+}
